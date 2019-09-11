@@ -8,10 +8,10 @@
 Before you start coding, you will need an integrated development environment (IDE). An IDE is software that you can create, edit, and run programs in. Think of it as a super fancy Word or Notepad.
 
 ### How do we create and run a program?
-Let's get used to the IDE we will be using. The instructer should go to https://codepad.remoteinterview.io and invite their student to join the workspace. \\
-There are two important parts of the IDE: \\
-(To the left) You'll see the editor area where you can create files and write code in them. After you write this code, you can tell the IDE to run it. \\
-(To the left) There is an area called the terminal. In the terminal, you can type `python3` in the terminal, and the prompt will change. You now have an active Python shell. You can submit the command `exit()` to exit the Python shell. \\
+Let's get used to the IDE we will be using. The instructer should go to https://codepad.remoteinterview.io and invite their student to join the workspace. \
+There are two important parts of the IDE: \
+(To the left) You'll see the editor area where you can create files and write code in them. After you write this code, you can tell the IDE to run it. \
+(To the left) There is an area called the terminal. In the terminal, you can type `python3` in the terminal, and the prompt will change. You now have an active Python shell. You can submit the command `exit()` to exit the Python shell. \
 Try it out!
 ```bash
 user@machine:~/data$ python3
@@ -21,7 +21,7 @@ Type "help", "copyright", "credits" or "license" for more.
 >>> exit()
 $
 ```
-When you type code here, as soon as you press enter the IDE runs your code. This is useful for testing commands. \\
+When you type code here, as soon as you press enter the IDE runs your code. This is useful for testing commands. \
 Try it out!
 ```python
 print("hello")
@@ -89,7 +89,7 @@ print("####")
 
 ## MORE ADVANCED PRACTICE
 ### Coding is Fun!
-Print the word "FUN" made out of any character you want. Here’s an example using `&`s. \\
+Print the word "FUN" made out of any character you want. Here’s an example using `&`s. \
 ```bash
 &&&&&& &&   && &&   && 
 &&     &&   && &&&  && 
@@ -106,6 +106,6 @@ Make yours as big or small as you want!
 - Here's where you can try the IDE some more on your own: https://codeinterview.io/
 
 ## HOMEWORK
-- [ ] Print out a statement saying what you're most excited to learn about in this course!
-- [ ] Print out the number 5 and the string "days" using one line of code. 
-- [ ] Design and print a shape made out of @ signs. 
+- Print out a statement saying what you're most excited to learn about in this course!
+- Print out the number 5 and the string "days" using one line of code. 
+- Design and print a shape made out of @ signs. 
