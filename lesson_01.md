@@ -8,25 +8,27 @@
 Before you start coding, you will need an integrated development environment (IDE). An IDE is software that you can create, edit, and run programs in. Think of it as a super fancy Word or Notepad.
 
 ### How do we create and run a program?
-Let's get used to the IDE we will be using. The instructer should go to https://codepad.remoteinterview.io and invite their student to join the workspace.
+Let's get used to the IDE we will be using. The instructer should go to [CodeInterview's remote code pad](https://codepad.remoteinterview.io) and invite their student to join the workspace.
 
 There are two important parts of the IDE:
-- (To the left) You'll see the editor area where you can create files and write code in them. After you write this code, you can tell the IDE to run it.
-- (To the left) There is an area called the terminal. In the terminal, you can type `python3` in the terminal, and the prompt will change. You now have an active Python shell. You can submit the command `exit()` to exit the Python shell.
+- (To the left) you'll see the editor area where you can create files and write code in them. 
+After you write this code, you can tell the IDE to run it.
+- (To the right) there is an area called the terminal. 
+You can type `python3` in the terminal, and the prompt will change. 
+You now have an active Python shell. 
+You can use the command `exit()` to leave the Python shell.
 
 Try it out!
 ```bash
-user@machine:~/data$ python3
-Python 3.5.2 (default, Nov 12 2018, 13:43:14) 
-[GCC 5.4.0 20160609] on linux
-Type "help", "copyright", "credits" or "license" for more.
->>> exit()
-$
+$ python3           # activate Python 3 shell
+...
+>>> exit()          # leave Python 3 shell
+$ 
 ```
 When you type code here, as soon as you press enter the IDE runs your code. This is useful for testing commands. \
 Try it out!
 ```python
-print("hello")
+print("Hello, World!")
 ```
 That should have displayed the word hello underneath what you typed! 
 You can type `exit()` to go back to normal. We also use the terminal to compile and run our programs. We'll do that in our activities today.
@@ -73,7 +75,8 @@ print("My favorite color is red.")
 
 ## ADDITIONAL PRACTICE
 ### Make a Square
-We can draw some fun pictures by printing things. Try to print a square made of `#`s. We can make it with 4 `#`s per side, so it will look like this:
+We can draw some fun pictures by printing things. 
+Try to print a square made of `#`s. We can make it with 4 `#`s per side, so it will look like this:
 ```bash
 #### 
 #  # 
@@ -91,7 +94,7 @@ print("####")
 
 ## MORE ADVANCED PRACTICE
 ### Coding is Fun!
-Print the word "FUN" made out of any character you want. Here’s an example using `&`s. \
+Print the word "FUN" made out of any character you want. Here’s an example using `&`.
 ```bash
 &&&&&& &&   && &&   && 
 &&     &&   && &&&  && 
@@ -104,8 +107,8 @@ Make yours as big or small as you want!
 
 
 ## RESOURCES
-- Here’s an extra tutorial on printing: https://www.tutorialspoint.com/python/python\_basic\_syntax.htm
-- Here's where you can try the IDE some more on your own: https://codeinterview.io/
+- Here’s an [extra tutorial on printing](https://www.tutorialspoint.com/python/python\_basic\_syntax.htm).
+- Here's where you can try the [IDE](https://codeinterview.io/) some more on your own.
 
 ## HOMEWORK
 - Print out a statement saying what you're most excited to learn about in this course!
