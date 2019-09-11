@@ -8,10 +8,12 @@
 Before you start coding, you will need an integrated development environment (IDE). An IDE is software that you can create, edit, and run programs in. Think of it as a super fancy Word or Notepad.
 
 ### How do we create and run a program?
-Let's get used to the IDE we will be using. The instructer should go to https://codepad.remoteinterview.io and invite their student to join the workspace. \
-There are two important parts of the IDE: \
-- (To the left) You'll see the editor area where you can create files and write code in them. After you write this code, you can tell the IDE to run it. \
-- (To the left) There is an area called the terminal. In the terminal, you can type `python3` in the terminal, and the prompt will change. You now have an active Python shell. You can submit the command `exit()` to exit the Python shell. \
+Let's get used to the IDE we will be using. The instructer should go to https://codepad.remoteinterview.io and invite their student to join the workspace.
+
+There are two important parts of the IDE:
+- (To the left) You'll see the editor area where you can create files and write code in them. After you write this code, you can tell the IDE to run it.
+- (To the left) There is an area called the terminal. In the terminal, you can type `python3` in the terminal, and the prompt will change. You now have an active Python shell. You can submit the command `exit()` to exit the Python shell.
+
 Try it out!
 ```bash
 user@machine:~/data$ python3
