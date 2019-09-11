@@ -1,7 +1,6 @@
 
 
-# Unit 1
-# Lesson 1: Set Up and Installation
+# Unit 1 - Lesson 1: Set Up and Installation
 
 % formatting parameter, don't change
 \vspace{-10pt}
@@ -35,81 +34,75 @@ You can type "exit()" to go back to normal. We also use the terminal to compile 
 A print statement displays what we put in it in the terminal.
 To print a string, or any set of letters and words, you put it in "". For example, we just ran a file that printed "Hello, World!". In this example, Hello, World! is a string, so we put "" around it so we could print it. 
 
-\section*{ACTIVITY \#1} 
-\subsection*{Printing A Number}
+## ACTIVITY #1
+### Printing A Number
 You can also print out numbers simply by putting the number (without quotes) after the print command.
 Try to print your favorite number!
-\subsection*{Solution}
-\begin{python}
+### Solution
+```python
 print(16)
-\end{python}
+```
 
-\section*{ACTIVITY \#2} 
-\subsection*{Print a sentence with a number}
+## ACTIVITY #2
+### Print a sentence with a number
 Sometimes you want to print out a string and numbers together. You can use the + operator to append (put together) numbers and strings. If you want to put together numbers and strings, the number needs to have str with parentheses around it. This tells the computer to convert the number to a string.
-\subsection*{Solution}
-\begin{python}
+### Solution
+```python
 print("My favorite number is " + str(16))
-\end{python}
+```
 
-\section*{ACTIVITY \#3} 
-\subsection*{Tell us about you}
+## ACTIVITY #3
+### Tell us about you
 Print your name on one line, your age on the next line, and then your favorite color on the last line. 
 Here's what your output could look like: \\
-\begin{python}
+```python
 My name is Bob.
 I am 12 years old.
 My favorite color is red.
-\end{python}
-\subsection*{Solution}
-\begin{python}
+```
+### Solution
+```python
 print("My name is Bob.")
 print("I am 12 years old.")
 print("My favorite color is red.")
-\end{python}
+```
 
-\section*{ADDITIONAL PRACTICE} 
-\subsection*{Make a Square}
+## ADDITIONAL PRACTICE
+### Make a Square
 We can draw some fun pictures by printing things. Try to print a square made of \#s. We can make it with 4 \#s per side, so it will look like this: \\
-\begin{python}
+```python
 #### 
 #  # 
 #  # 
 #### 
-\end{python}
-\subsection*{Solution}
-\begin{python}
+```
+### Solution
+```python
 print("####")
 print("#  #")
 print("#  #")
 print("####")
-\end{python}
+```
 
-\section*{MORE ADVANCED PRACTICE} 
-\subsection*{Coding is Fun!}
+## MORE ADVANCED PRACTICE
+### Coding is Fun!
 Print the word "FUN" made out of any character you want. Here’s an example using \&s. \\
-\begin{python}
+```python
 &&&&&& &&   && &&   && 
 &&     &&   && &&&  && 
 &&&&&  &&   && && & && 
 &&     &&   && &&  &&& 
 &&     &&&&&&& &&   && 
-\end{python}
+```
 
 Make yours as big or small as you want!
 
 
-\section*{RESOURCES}
-\begin{itemize}
-    \item Here’s an extra tutorial on printing:\\ \url{https://www.tutorialspoint.com/python/python\_basic\_syntax.htm}
-    \item Here's where you can try the IDE some more on your own:\\ \url{https://codeinterview.io/}
-\end{itemize}
+## RESOURCES
+- Here’s an extra tutorial on printing:\\ \url{https://www.tutorialspoint.com/python/python\_basic\_syntax.htm}
+- Here's where you can try the IDE some more on your own:\\ \url{https://codeinterview.io/}
 
-\section*{HOMEWORK}
-\begin{enumerate}
-    \item Print out a statement saying what you're most excited to learn about in this course!
-    \item Print out the number 5 and the string ``days'' using one line of code. 
-    \item Design and print a shape made out of @ signs. 
-\end{enumerate}
-
-\end{document}
+## HOMEWORK
+- Print out a statement saying what you're most excited to learn about in this course!
+- Print out the number 5 and the string ``days'' using one line of code. 
+- Design and print a shape made out of @ signs. 
